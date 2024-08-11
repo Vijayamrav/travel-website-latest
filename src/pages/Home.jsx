@@ -1,7 +1,14 @@
+import Banner from "../components/Banner/Banner"
+import AdvancedSearch from "../components/AdvancedSearch/AdvancedSearch"
+
+
 export const Home=()=>{
     return(
         <>
-        <div>Home</div>
+        <Banner/>
+        <AdvancedSearch/>
+
+      
         </>
     )
 }

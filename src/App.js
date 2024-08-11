@@ -2,8 +2,9 @@
 import { Home } from "./pages/Home";
 import { Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
-import { Header } from "./components/common/Header/Header";
-import { Footer } from "./components/common/Footer/Footer";
+import Header from "./components/common/Header/Header.jsx"
+import Footer from "./components/common/Footer/Footer.jsx"
+import "./App.css"
 
 
 function App() {
