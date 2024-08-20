@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { Button, Form, Row, Col, Container, Card, Alert } from "react-bootstrap";
-
+import "./paymentPage.css"
 
 const PaymentPage = () => {
   const location = useLocation();
@@ -34,7 +34,7 @@ const PaymentPage = () => {
 
   return (
     <Container className="payment-container mt-5">
-      <Card className="p-4 shadow-sm">
+      <Card className=" payment-card p-4 shadow-sm">
         <h2 className="text-center mb-4">Payment Information</h2>
         <p className="text-center mb-4">
           You are booking flight <strong>{flight.flightName}</strong> from{" "}
