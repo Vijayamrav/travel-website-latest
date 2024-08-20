@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "name": "The Grand Hyatt",
+      "location": "New York, USA",
+      "price": 250,
+      "image": "https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.jpg?s=612x612&w=0&k=20&c=9QtwJC2boq3GFHaeDsKytF4-CavYKQuy1jBD2IRfYKc=",
+      "latitude": 40.712776,
+      "longitude": -74.005974
+    },
+    {
+      "id": 2,
+      "name": "Hotel Paris",
+      "location": "Paris, France",
+      "price": 300,
+      "image": "https://example.com/hotel-paris.jpg",
+      "latitude": 48.856613,
+      "longitude": 2.352222
+    },
+    {
+      "id": 3,
+      "name": "Tokyo Plaza Hotel",
+      "location": "Tokyo, Japan",
+      "price": 200,
+      "image": "https://example.com/tokyo-plaza.jpg",
+      "latitude": 35.689487,
+      "longitude": 139.691711
+    },
+    {
+      "id": 4,
+      "name": "Sydney Harbour Hotel",
+      "location": "Sydney, Australia",
+      "price": 280,
+      "image": "https://example.com/sydney-harbour.jpg",
+      "latitude": -33.868820,
+      "longitude": 151.209296
+    },
+    {
+      "id": 5,
+      "name": "The Ritz London",
+      "location": "London, UK",
+      "price": 350,
+      "image": "https://example.com/ritz-london.jpg",
+      "latitude": 51.507351,
+      "longitude": -0.127758
+    }
+  ]
+  

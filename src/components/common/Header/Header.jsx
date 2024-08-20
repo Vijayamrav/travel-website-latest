@@ -53,7 +53,7 @@ const Header = () => {
             >
               {/*mobile Logo Section  */}
               <Offcanvas.Header>
-                <h1 className="logo">Weekendmonks</h1>
+                <h1 className="logo">Sandarsaka</h1>
                 <span className="navbar-toggler ms-auto"  onClick={toggleMenu}>
                   <i className="bi bi-x-lg"></i>
                 </span>
@@ -99,8 +99,8 @@ const Header = () => {
               </Offcanvas.Body>
             </Navbar.Offcanvas>
             <div className="ms-md-4 ms-2">
-              <NavLink className="primaryBtn d-none d-sm-inline-block">
-                Book Now
+            <NavLink to="/booking" className="primaryBtn d-none d-sm-inline-block">
+              Book Now
               </NavLink>
               <li className="d-inline-block d-lg-none ms-3 toggle_btn">
                 <i className={open ? "bi bi-x-lg" : "bi bi-list"}  onClick={toggleMenu}></i>
