@@ -5,9 +5,9 @@ import { Route } from "react-router-dom";
 import Header from "./components/common/Header/Header.jsx"
 import Footer from "./components/common/Footer/Footer.jsx"
 import "./App.css"
-import BookingPage from "./pages/FlightBooking.jsx"
+import FlightBookingPage from "./pages/FlightBooking.jsx";
 import PaymentPage from "./pages/paymentPage.jsx";
-import HotelBookingPage from "./pages/HoteBooking/HotelBooking.jsx";
+
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       
      <Routes>
       <Route path="/"  element={<Home/>}/>
-      <Route path="/booking" element={<BookingPage />} />
+      <Route path="/flightbooking" element={<FlightBookingPage />} />
       <Route path="/payment" element={<PaymentPage />} />
      </Routes>
      

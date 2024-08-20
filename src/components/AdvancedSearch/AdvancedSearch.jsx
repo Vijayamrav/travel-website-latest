@@ -6,6 +6,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import CustomDropdown from "../CustomDropDown/CustomDropDown";
 import {Button} from "react-bootstrap";
 import "./AdvancedSearch.css";
+import { NavLink } from "react-router-dom";
 const AdvancedSearch=()=>{
     const [startDate, setStartDate] = useState(new Date());
     const [endDate, setEndDate] = useState(new Date());
@@ -79,7 +80,8 @@ const AdvancedSearch=()=>{
                 </div>
                 <div className="item-search bd-none">
                     <Button className="primaryBtn flex-even d-flex justify-content-center">
-                    <i className="bi bi-search me-2"></i> Search 
+                    <i className="bi bi-search me-2"></i> <NavLink to="./flightbooking" style={{ textDecoration: "none", color: "inherit" }}
+                    >Search</NavLink>
                     </Button>
 
                 </div>
