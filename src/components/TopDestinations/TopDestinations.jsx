@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import topDestinations from "./TopDestinations.json";
 import "./TopDestinations.css";
+import { NavLink } from "react-router-dom";
 
 const TopDestinations = () => {
   return (
@@ -11,6 +12,7 @@ const TopDestinations = () => {
         {topDestinations.map((destination) => (
           <Col md={6} lg={4} key={destination.id} className="mb-4">
             <Card className="shadow-sm h-100">
+              
               <Card.Img
                 variant="top"
                 src={destination.image}
@@ -18,6 +20,7 @@ const TopDestinations = () => {
                 className="destinationImage"
                 loading="lazy"
               />
+              
               <Card.Title className="card-title">
                 {destination.name}
               </Card.Title>

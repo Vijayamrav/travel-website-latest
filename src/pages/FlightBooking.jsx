@@ -78,7 +78,7 @@ const FlightBookingPage = () => {
                   <p className="mb-1"><strong>Arrival Time:</strong> {flight.arrivalTime}</p>
                 </div>
                 <div className="mt-auto">
-                  <h5 className="text-center text-danger mb-3">{flight.amount} INR</h5>
+                  <h5 className="text-center text-danger mb-3">Amount:{flight.amount} INR</h5>
                   <Button 
                     variant="primary" 
                     onClick={() => proceedToPayment(flight)} 
