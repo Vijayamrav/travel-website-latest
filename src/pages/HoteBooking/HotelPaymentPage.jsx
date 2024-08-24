@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { useLocation,useNavigate } from "react-router-dom";
+import { Navigate, useLocation,useNavigate } from "react-router-dom";
 import { Button, Form, Row, Col, Container, Card } from "react-bootstrap";
 import Swal from "sweetalert2";  // Import SweetAlert2
-import "./paymentPage.css";
 
-const PaymentPage = () => {
+
+const HotelPaymentPage = () => {
   const location = useLocation();
-  const navigate=useNavigate();
-  const { flight } = location.state || {}; // Get the flight data from location state
+  const navigate= useNavigate();
+  const { hotel } = location.state || {}; // Get the hotel data from location state
 
   const [cardDetails, setCardDetails] = useState({
     cardNumber: "",
@@ -17,13 +17,14 @@ const PaymentPage = () => {
   });
 
   const handlePayment = (event) => {
-    event.preventDefault(); // Prevent the default form submission
+    event.preventDefault();
 
+    // Mock payment process
     Swal.fire({
-      title: "Payment Successful!",
-      text: `Payment successful for flight ${flight.flightName}. Cardholder: ${cardDetails.cardHolderName}. Amount: ${flight.amount} INR`,
-      icon: "success",
-      confirmButtonText: "OK",
+      title: 'Payment Successful!',
+      text: `Payment successful for ${hotel.name}. Cardholder: ${cardDetails.cardHolderName}. Amount: ${hotel.price} INR`,
+      icon: 'success',
+      confirmButtonText: 'OK'
     }).then(() => {
         navigate("/")
     });
@@ -36,8 +37,8 @@ const PaymentPage = () => {
     });
   };
 
-  if (!flight) {
-    return <h2>No flight selected.</h2>;
+  if (!hotel) {
+    return <h2>No hotel selected.</h2>;
   }
 
   return (
@@ -45,10 +46,9 @@ const PaymentPage = () => {
       <Card className="payment-card p-4 shadow-sm">
         <h2 className="text-center mb-4">Payment Information</h2>
         <p className="text-center mb-4">
-          You are booking flight <strong>{flight.flightName}</strong> from{" "}
-          <strong>{flight.departure}</strong> to{" "}
-          <strong>{flight.destination}</strong> for{" "}
-          <strong>{flight.amount} INR</strong>.
+          You are booking hotel <strong>{hotel.name}</strong> in{" "}
+          <strong>{hotel.location}</strong> for{" "}
+          <strong>{hotel.price} INR</strong> per night.
         </p>
 
         <Form onSubmit={handlePayment}>
@@ -121,4 +121,4 @@ const PaymentPage = () => {
   );
 };
 
-export default PaymentPage;
+export default HotelPaymentPage;
