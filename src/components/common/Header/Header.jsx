@@ -72,23 +72,9 @@ const Header = () => {
                   <span className="nav-item">TOURS</span>
                   </NavLink>
 
-                  <NavDropdown
-                    title="DESTINATION"
-                    id={`offcanvasNavbarDropdown-expand-lg`}
-                  >
-                    <NavDropdown.Item href="#action3">
-                      {" "}
-                      SPAIN TOURS
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
-                      {" "}
-                      ITALY TOURS{" "}
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
-                      {" "}
-                      FRANCE TOURS{" "}
-                    </NavDropdown.Item>
-                  </NavDropdown>
+                  <NavLink className="nav-link" to="/blogs">
+                  <span className="nav-item">BLOGS</span>
+                  </NavLink>
                   <NavLink className="nav-link" to="/">
                   <span className="nav-item">GALLERY</span>
                   </NavLink>

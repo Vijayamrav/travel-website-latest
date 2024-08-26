@@ -9,6 +9,9 @@ import PaymentPage from "./pages/paymentPage.jsx";
 import HotelBookingForm from "./pages/HoteBooking/HotelBookingForm.jsx";
 import HotelPaymentPage from "./pages/HoteBooking/HotelPaymentPage.jsx";
 import HotelConfirmationPage from "./pages/HoteBooking/HotelConfirmationPage.jsx";
+import BlogList from "./BlogApp/BlogApp.jsx";
+import BlogPostDetails from "./BlogApp/BlogDetail.jsx";
+
 
 
 function App() {
@@ -22,6 +25,9 @@ function App() {
       <Route path="/hotel-booking-form" element={<HotelBookingForm/>}/>
       <Route path="/hotel-payment" element={<HotelPaymentPage/>}/>
       <Route path="/confirmation" element={<HotelConfirmationPage/>}/>
+      <Route path="/blogs" element={<BlogList/>}/>
+      <Route path="/blogs/:id" element={<BlogPostDetails/>}/>
+
       
       
      </Routes>
