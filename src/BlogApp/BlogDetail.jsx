@@ -22,7 +22,7 @@ const BlogPostDetails = () => {
       const updatedLikes = likes + 1;
       await axios.put(`http://localhost:5000/posts/${blogid}`, {
         ...blog,
-        "likes": updatedLikes
+        likes: updatedLikes
       });
       setLikes(updatedLikes);
     } catch (err) {
