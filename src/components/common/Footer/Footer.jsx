@@ -25,8 +25,8 @@ const Footer = () => {
           </Col>
           <Col md={4} className="footer-section">
             <h3>Contact Us</h3>
-            <p>Email: example@domain.com</p>
-            <p>Phone: +123 456 7890</p>
+            <p>Email: sandarsaka@gmail.com</p>
+            <p>Phone: +917032786479</p>
             <div className="social-icons">
               <FaInstagram className="social-icon"/>
               <FaXTwitter className="social-icon"/>

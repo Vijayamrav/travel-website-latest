@@ -1,69 +1,73 @@
 [
-    {
-      "id": 1,
-      "title": "Exploring the Hidden Gems of Bali",
-      "author": "John Doe",
-      "date": "2024-08-15",
-      "thumbnail": "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid",
-      "description": "Discover the lesser-known attractions in Bali that offer a unique and peaceful travel experience.",
-      "content": "Bali is known for its beautiful beaches and vibrant culture, but there's so much more to explore beyond the usual tourist spots...",
-      "tags": ["Bali", "Indonesia", "Hidden Gems", "Travel"],
-      "category": "Destinations",
-      "likes": 120,
-      "comments": 15
-    },
-    {
-      "id": 2,
-      "title": "A Food Lover's Guide to Italy",
-      "author": "Jane Smith",
-      "date": "2024-07-30",
-      "thumbnail": "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid",
-      "description": "Indulge in Italy's culinary delights with our guide to the best food experiences across the country.",
-      "content": "Italy is a food lover's paradise, offering a diverse range of dishes that vary from region to region...",
-      "tags": ["Italy", "Food", "Culinary", "Travel"],
-      "category": "Food & Drink",
-      "likes": 200,
-      "comments": 25
-    },
-    {
-      "id": 3,
-      "title": "Top 10 Budget-Friendly Travel Destinations for 2024",
-      "author": "Alex Johnson",
-      "date": "2024-06-25",
-      "thumbnail": "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid",
-      "description": "Looking for a great travel experience without breaking the bank? Check out these top budget-friendly destinations for 2024.",
-      "content": "Traveling on a budget doesn't mean you have to compromise on experiences. We've curated a list of top destinations where you can enjoy a fantastic trip without spending too much...",
-      "tags": ["Budget Travel", "2024", "Top Destinations", "Travel Tips"],
-      "category": "Budget Travel",
-      "likes": 95,
-      "comments": 10
-    },
-    {
-      "id": 4,
-      "title": "The Ultimate Guide to Solo Travel",
-      "author": "Emily Brown",
-      "date": "2024-05-20",
-      "thumbnail": "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid",
-      "description": "Everything you need to know about traveling solo, from safety tips to making the most of your journey.",
-      "content": "Solo travel is an empowering and fulfilling experience. It allows you to explore new places on your own terms...",
-      "tags": ["Solo Travel", "Travel Tips", "Guide", "Adventure"],
-      "category": "Travel Tips",
-      "likes": 150,
-      "comments": 18
-    },
-    {
-      "id": 5,
-      "title": "A Journey Through Japan's Cherry Blossom Season",
-      "author": "David Lee",
-      "date": "2024-04-10",
-      "thumbnail": "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid",
-      "description": "Experience the beauty of Japan's cherry blossom season with our guide to the best viewing spots and cultural insights.",
-      "content": "Japan's cherry blossom season, known as 'Sakura,' is a breathtaking sight that attracts visitors from all over the world...",
-      "tags": ["Japan", "Cherry Blossom", "Sakura", "Cultural Travel"],
-      "category": "Cultural Travel",
-      "likes": 220,
-      "comments": 30
-    }
-  ]
+  {
+    "id": 0,
+    "title": "Exploring the Hidden Gems of Bali",
+    "author": "John Doe",
+    "date": "2024-08-15",
+    "images": [
+      "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid",
+      "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid",
+      "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid"
+    ],
+    "description": "Discover the lesser-known attractions in Bali that offer a unique and peaceful travel experience.",
+    "content": "Bali is known for its beautiful beaches and vibrant culture, but there's so much more to explore beyond the usual tourist spots.Bali is renowned for its stunning beaches and vibrant culture, but it offers so much more beyond the well-trodden tourist paths. Beyond the picturesque shorelines, you'll find lush rice terraces that paint the landscape in shades of green and traditional villages where you can immerse yourself in authentic Balinese culture. Venture into the heart of the island to discover sacred temples nestled in serene forests, explore hidden waterfalls, and enjoy the unique charm of Bali's lesser-known towns and markets. Each corner of the island reveals a new facet of its rich heritage and natural beauty, promising an unforgettable experience for those who seek to delve deeper into Bali's diverse offerings.",
+    "likes": 133
+  },
+  {
+    "id": 1,
+    "title": "Exploring the Hidden Gems of Bali",
+    "author": "John Doe",
+    "date": "2024-08-15",
+    "images": [
+      "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid",
+      "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid"
+      
+    ],
+    "description": "Discover the lesser-known attractions in Bali that offer a unique and peaceful travel experience.",
+    "content": "Bali is known for its beautiful beaches and vibrant culture, but there's so much more to explore beyond the usual tourist spots.Bali is renowned for its stunning beaches and vibrant culture, but it offers so much more beyond the well-trodden tourist paths. Beyond the picturesque shorelines, you'll find lush rice terraces that paint the landscape in shades of green and traditional villages where you can immerse yourself in authentic Balinese culture. Venture into the heart of the island to discover sacred temples nestled in serene forests, explore hidden waterfalls, and enjoy the unique charm of Bali's lesser-known towns and markets. Each corner of the island reveals a new facet of its rich heritage and natural beauty, promising an unforgettable experience for those who seek to delve deeper into Bali's diverse offerings.",
+    "likes": 133
+  },
+  {
+    "id": 2,
+    "title": "Exploring the Hidden Gems of Bali",
+    "author": "John Doe",
+    "date": "2024-08-15",
+    "images": [
+      "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid",
+      "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid",
+      "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid"
+    ],
+    "description": "Discover the lesser-known attractions in Bali that offer a unique and peaceful travel experience.",
+    "content": "Bali is known for its beautiful beaches and vibrant culture, but there's so much more to explore beyond the usual tourist spots.Bali is renowned for its stunning beaches and vibrant culture, but it offers so much more beyond the well-trodden tourist paths. Beyond the picturesque shorelines, you'll find lush rice terraces that paint the landscape in shades of green and traditional villages where you can immerse yourself in authentic Balinese culture. Venture into the heart of the island to discover sacred temples nestled in serene forests, explore hidden waterfalls, and enjoy the unique charm of Bali's lesser-known towns and markets. Each corner of the island reveals a new facet of its rich heritage and natural beauty, promising an unforgettable experience for those who seek to delve deeper into Bali's diverse offerings.",
+    "likes": 133
+  },
+  {
+    "id": 3,
+    "title": "Exploring the Hidden Gems of Bali",
+    "author": "John Doe",
+    "date": "2024-08-15",
+    "images": [
+      "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid",
+      "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid",
+      "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid"
+    ],
+    "description": "Discover the lesser-known attractions in Bali that offer a unique and peaceful travel experience.",
+    "content": "Bali is known for its beautiful beaches and vibrant culture, but there's so much more to explore beyond the usual tourist spots.Bali is renowned for its stunning beaches and vibrant culture, but it offers so much more beyond the well-trodden tourist paths. Beyond the picturesque shorelines, you'll find lush rice terraces that paint the landscape in shades of green and traditional villages where you can immerse yourself in authentic Balinese culture. Venture into the heart of the island to discover sacred temples nestled in serene forests, explore hidden waterfalls, and enjoy the unique charm of Bali's lesser-known towns and markets. Each corner of the island reveals a new facet of its rich heritage and natural beauty, promising an unforgettable experience for those who seek to delve deeper into Bali's diverse offerings.",
+    "likes": 133
+  },
+  {
+    "id": 4,
+    "title": "Exploring the Hidden Gems of Bali",
+    "author": "John Doe",
+    "date": "2024-08-15",
+    "images": [
+      "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid",
+      "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid",
+      "https://img.freepik.com/free-photo/man-traveler-angel-s-billabong-beach-nusa-penida-island-bali-indonesia_1321-1821.jpg?ga=GA1.1.1094676085.1723314278&semt=ais_hybrid"
+    ],
+    "description": "Discover the lesser-known attractions in Bali that offer a unique and peaceful travel experience.",
+    "content": "Bali is known for its beautiful beaches and vibrant culture, but there's so much more to explore beyond the usual tourist spots.Bali is renowned for its stunning beaches and vibrant culture, but it offers so much more beyond the well-trodden tourist paths. Beyond the picturesque shorelines, you'll find lush rice terraces that paint the landscape in shades of green and traditional villages where you can immerse yourself in authentic Balinese culture. Venture into the heart of the island to discover sacred temples nestled in serene forests, explore hidden waterfalls, and enjoy the unique charm of Bali's lesser-known towns and markets. Each corner of the island reveals a new facet of its rich heritage and natural beauty, promising an unforgettable experience for those who seek to delve deeper into Bali's diverse offerings.",
+    "likes": 133
+  }
   
-   
+]

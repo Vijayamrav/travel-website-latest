@@ -8,16 +8,21 @@ const BlogList = () => {
   return (
     <>
       <div className="blog-title">
-      <h1>SANDARSAKA BLOGS</h1>
+        <h1>SANDARSAKA BLOGS</h1>
+      </div>
+      <div className="createPost-container">
+        <Link to="/create-post">
+          <button className="primaryBtn">CREATE BLOG</button>
+        </Link>
       </div>
       <div className="blog-container">
         <Row>
           {blogPosts.map((blog) => (
             <Col md={4} key={blog.id}>
               <Card className="blog-card">
-                <Card.Img variant="top" src={blog.thumbnail} />
+                <Card.Img variant="top" src={blog.images[0]} />
                 <Card.Body>
-                  <h1 className="content-title text-wrap">{blog.title}</h1>
+                  <h1 className="content-title">{blog.title}</h1>
                   <Card.Text>{blog.description}</Card.Text>
                   <Link to={`/blogs/${blog.id}`}>
                     <Button className="button">Read More</Button>
