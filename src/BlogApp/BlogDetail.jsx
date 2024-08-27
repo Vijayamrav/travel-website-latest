@@ -12,20 +12,21 @@ const BlogPostDetails = () => {
   const { id } = useParams();
   const blog = blogPosts.posts.find((post) => post.id == parseInt(id));
   
-  const [likes, setLikes] = useState(`${blog.likes}`);
+  const [likes, setLikes] = useState(blog.likes);
   const blogid = blog.id;
   console.log(blogid)
+  
 
   const handleLikes = async () => {
     try {
-      const updatedLikes = Number(likes) + 1;
+      const updatedLikes = likes + 1;
       await axios.put(`http://localhost:5000/posts/${blogid}`, {
         ...blog,
-        likes: updatedLikes
+        "likes": updatedLikes
       });
       setLikes(updatedLikes);
     } catch (err) {
-      console.log("error while updating likes");
+      console.log("error while updating likes",err);
     }
   };
 
