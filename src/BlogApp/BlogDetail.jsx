@@ -10,8 +10,11 @@ import "../components/common/Header/Header.css"
 
 const BlogPostDetails = () => {
   const { id } = useParams();
-  const blog = blogPosts.posts.find((post) => post.id == parseInt(id));
   
+  const blog = blogPosts.posts.find((post) => post.id === id);
+  console.log("blog",blog)
+  console.log("bloglikes",blog.likes)
+
   const [likes, setLikes] = useState(blog.likes);
   const blogid = blog.id;
   console.log(blogid)

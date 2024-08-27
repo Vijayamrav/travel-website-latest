@@ -14,7 +14,7 @@ const CreateBlog=()=>{
         "images":images,
         "description":description,
         "content":content,
-        "likes":"0"
+        "likes":0
     }
 
     const handleClick=async()=>{
