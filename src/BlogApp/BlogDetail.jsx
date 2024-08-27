@@ -1,22 +1,25 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Button, Card } from 'react-bootstrap';
-import blogPosts from './db.json';
+import blogPosts from './db1.json';
 import "./BlogDetail.css";
 import axios from 'axios';
 import Carousel from 'react-bootstrap/Carousel';
+import Header from '../components/common/Header/Header.jsx';
+import "../components/common/Header/Header.css"
 
 const BlogPostDetails = () => {
   const { id } = useParams();
-  const blog = blogPosts.find((post) => post.id === parseInt(id));
+  const blog = blogPosts.posts.find((post) => post.id == parseInt(id));
   
   const [likes, setLikes] = useState(`${blog.likes}`);
   const blogid = blog.id;
+  console.log(blogid)
 
   const handleLikes = async () => {
     try {
       const updatedLikes = Number(likes) + 1;
-      await axios.put(`http://localhost:3001/${blogid}`, {
+      await axios.put(`http://localhost:5000/posts/${blogid}`, {
         ...blog,
         likes: updatedLikes
       });
@@ -27,6 +30,8 @@ const BlogPostDetails = () => {
   };
 
   return (
+    <>
+    <Header/>
     <div className="blog-details">
       <Card className="person-blog-card">
         <Carousel>
@@ -45,6 +50,7 @@ const BlogPostDetails = () => {
         </Card.Body>
       </Card>
     </div>
+    </>
   );
 };
 

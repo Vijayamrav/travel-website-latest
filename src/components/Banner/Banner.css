@@ -1,6 +1,7 @@
 .slider .carousel{
     position:relative;
 }
+
 .heading{
     font-size:200%;
     color:var(--white);
@@ -158,4 +159,6 @@
   }
 
 }
+
+
 

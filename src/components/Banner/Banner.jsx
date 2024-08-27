@@ -10,7 +10,7 @@ const Banner=()=>{
         <section className="slider">
         <Carousel variant="dark" className="carousel">
       <Carousel.Item>
-        <img src={sliderImage1} className="d-block w-100" alt="First slide"/>
+        <img src={sliderImage1} className="slider-image d-block w-100" alt="First slide"/>
         <Carousel.Caption>
         <div className="slider-text">
             <h2 className="heading">Find yourself in places your high school geography teacher never mentioned</h2>

@@ -1,12 +1,15 @@
 import React from 'react';
 import { Card, Button, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import blogPosts from './db.json';
+import blogPosts from './db1.json';
 import './BlogApp.css';
+import Header from '../components/common/Header/Header.jsx';
+import "../components/common/Header/Header.css"
 
 const BlogList = () => {
   return (
     <>
+      <Header/>
       <div className="blog-title">
         <h1>SANDARSAKA BLOGS</h1>
       </div>
@@ -17,10 +20,12 @@ const BlogList = () => {
       </div>
       <div className="blog-container">
         <Row>
-          {blogPosts.map((blog) => (
+          {blogPosts.posts.map((blog) => (
             <Col md={4} key={blog.id}>
               <Card className="blog-card">
+                
                 <Card.Img variant="top" src={blog.images[0]} />
+                <h4 className="author-name">author:{blog.author}</h4>
                 <Card.Body>
                   <h1 className="content-title">{blog.title}</h1>
                   <Card.Text>{blog.description}</Card.Text>

@@ -11,6 +11,7 @@ import HotelPaymentPage from "./pages/HoteBooking/HotelPaymentPage.jsx";
 import HotelConfirmationPage from "./pages/HoteBooking/HotelConfirmationPage.jsx";
 import BlogList from "./BlogApp/BlogApp.jsx";
 import BlogPostDetails from "./BlogApp/BlogDetail.jsx";
+import BlogCreation from "./BlogApp/BlogCreation.jsx";
 
 
 
@@ -27,6 +28,7 @@ function App() {
       <Route path="/confirmation" element={<HotelConfirmationPage/>}/>
       <Route path="/blogs" element={<BlogList/>}/>
       <Route path="/blogs/:id" element={<BlogPostDetails/>}/>
+      <Route path="/create-post" element={<BlogCreation/>}/>
 
       
       

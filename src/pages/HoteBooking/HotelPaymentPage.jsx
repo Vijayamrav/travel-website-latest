@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Navigate, useLocation,useNavigate } from "react-router-dom";
+import { useLocation,useNavigate } from "react-router-dom";
 import { Button, Form, Row, Col, Container, Card } from "react-bootstrap";
 import Swal from "sweetalert2";  // Import SweetAlert2
 

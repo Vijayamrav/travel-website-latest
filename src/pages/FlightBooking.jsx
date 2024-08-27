@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button, Card, Container, Row, Col, Form } from "react-bootstrap";
 import flightsData from "../flights.json"; 
+import Header from "../components/common/Header/Header.jsx";
+import "../components/common/Header/Header.css"
+import Footer from "../components/common/Footer/Footer.jsx";
+import "../components/common/Footer/Footer.css"
 
 const FlightBookingPage = () => {
   const navigate = useNavigate();
@@ -29,6 +33,8 @@ const FlightBookingPage = () => {
   };
 
   return (
+    <>
+    <Header/>
     <Container className="mt-5">
       <h2 className="text-center mb-4">Available Flights</h2>
       
@@ -92,6 +98,8 @@ const FlightBookingPage = () => {
         ))}
       </Row>
     </Container>
+    <Footer/>
+    </>
   );
 };
 
