@@ -12,6 +12,8 @@ import HotelConfirmationPage from "./pages/HoteBooking/HotelConfirmationPage.jsx
 import BlogList from "./BlogApp/BlogApp.jsx";
 import BlogPostDetails from "./BlogApp/BlogDetail.jsx";
 import BlogCreation from "./BlogApp/BlogCreation.jsx";
+import Gallery from "./GALLERY/gallery.jsx";
+import { lazy } from "react";
 
 
 
@@ -29,6 +31,7 @@ function App() {
       <Route path="/blogs" element={<BlogList/>}/>
       <Route path="/blogs/:id" element={<BlogPostDetails/>}/>
       <Route path="/create-post" element={<BlogCreation/>}/>
+      <Route path='/gallery' element={<Gallery/>}/>
 
       
       

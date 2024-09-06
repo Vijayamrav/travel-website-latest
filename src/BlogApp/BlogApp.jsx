@@ -5,8 +5,13 @@ import blogPosts from './db1.json';
 import './BlogApp.css';
 import Header from '../components/common/Header/Header.jsx';
 import "../components/common/Header/Header.css"
+import {useState,useEffect} from 'react';
 
 const BlogList = () => {
+    const [blog,setBlog]=useState([]);
+    useEffect(()=>{
+      setBlog(blogPosts.posts);
+    },[])
   return (
     <>
       <Header/>
@@ -24,7 +29,7 @@ const BlogList = () => {
             <Col md={4} key={blog.id}>
               <Card className="blog-card">
                 
-                <Card.Img variant="top" src={blog.images[0]} />
+                <Card.Img variant="top" src={blog.images[0]} loading='lazy' />
                 <h4 className="author-name">author:{blog.author}</h4>
                 <Card.Body>
                   <h1 className="content-title">{blog.title}</h1>
