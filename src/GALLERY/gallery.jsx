@@ -11,7 +11,7 @@ function Gallery() {
        {
         gallery.images.map((image,index)=>(
             <div className="gallery-image" key={index}>
-            <img src={image} alt="traveller" />
+            <img src={image} alt="traveller"  loading='lazy'/>
           </div>
         ))
        }
