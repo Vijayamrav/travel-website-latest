@@ -21,8 +21,14 @@
  }
  @media (max-width:768px){
     .gallery-grid{
-       
+        
         columns:2;
+    }
+ }
+ @media (max-width:480px){
+    .gallery-grid{
+        width:90%;
+        columns:1;
     }
  }
  
