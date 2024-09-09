@@ -26,14 +26,14 @@ const HotelBookingPage = () => {
     setSelectedHotel(null);
   };
 
-  // Function to navigate to the booking page with the selected hotel data
+  
   const handleBookNow = (hotel) => {
     navigate("/hotel-booking-form", { state: { hotel } });
   };
 
   return (
     <Container className="hotel-booking-container mt-5">
-      <h2 className="text-center mb-4">Hotel Booking</h2>
+      <h2 className="mb-4 fs-1">Book your favourite hotel now</h2>
       <div className="hotel-cards-container">
         <Row className="flex-nowrap">
           {hotels.map((hotel) => (
