@@ -4,6 +4,7 @@ import "./Footer.css";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,9 +19,9 @@ const Footer = () => {
             <h3>Quick Links</h3>
             <ul className="list-unstyled">
               <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
+              <li><NavLink to="/aboutus">AboutUs</NavLink></li>
               <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
+              
             </ul>
           </Col>
           <Col md={4} className="footer-section">

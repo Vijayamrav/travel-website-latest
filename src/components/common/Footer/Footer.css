@@ -35,4 +35,6 @@
   .social-icon:hover {
     color: #fff;
   }
-  
+  li{
+    margin:10px;
+  }
