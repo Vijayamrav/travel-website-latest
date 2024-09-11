@@ -96,7 +96,28 @@
       "description": "varma",
       "content": "varma",
       "likes": 0
+    },
+    {
+      "id": "420e",
+      "author": "xxx",
+      "title": "xxx",
+      "images": [
+        "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg"
+      ],
+      "description": "xxx",
+      "content": "xxxx",
+      "likes": 0
+    },
+    {
+      "id": "4a7a",
+      "author": "xxx",
+      "title": "xxx",
+      "images": [
+        "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg"
+      ],
+      "description": "xxx",
+      "content": "zxxx",
+      "likes": 12
     }
-    
   ]
 }
